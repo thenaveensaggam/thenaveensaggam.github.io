@@ -1,0 +1,11 @@
+/* Your custom styles */
+.carousel .carousel-indicators li {
+    max-width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.text-teal {
+    color: #00796b;
+}
