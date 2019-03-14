@@ -1,0 +1,202 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* --------------- Sidebar --------------- */
+.sidebar{
+    background-color: #00c851;
+    float: left;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 0 0 15px black;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #1bad56;
+    box-shadow: 0 0 15px black;
+    margin-top: 100px;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color:#baf5d2;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    color: white;
+}
+
+/* ------------- About Section --------------- */
+#about-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+#about-section h1{
+    font-family:'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 120px 0 0 0;
+}
+#fname{
+    color: #382828;
+    text-shadow: 0 0 5px black;
+}
+#lname{
+    color: #00c851;
+    text-shadow: 0 0 5px black;
+}
+#about-section h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+#about-section p{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 110px;
+}
+/* ------------- Experience Section -------------- */
+#exp-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.main-heading{
+    margin-top: 0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    text-shadow:  0 0 5px #00c851;
+}
+.exp-article{
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.exp-article:hover{
+    transform:perspective(400px) rotateY(-20deg);
+}
+.exp-article h2{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.exp-article p{
+    font-size: 18px;
+    color: gray;
+}
+.exp-article-button{
+    background-color: #00c851;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 0 5px #00c851;
+}
+
+/* -------------- Education Section ---------- */
+#edu-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.edu-article{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.edu-article:hover{
+    transform: perspective(400px) rotateX(20deg);
+}
+.edu-article h2{
+    font-family: 'Lobster', cursive;
+    color: #00c851;
+}
+.edu-article p{
+    font-size: 18px;
+    color: gray;
+}
+/* ------------------ Skills Section ---------------- */
+#skills-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.skills-article{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.skills-article:hover{
+    transform: perspective(400px) rotateX(-10deg);
+}
+.skills-article h2{
+    font-family: 'Lobster', cursive;
+    color: #00c851;
+}
+.skills-article p{
+    font-size: 18px;
+    color: gray;
+}
+.fab , .fas{
+    margin: 10px;
+}
+.fab:hover , .fas:hover{
+    color: #00c851;
+}
+
+/* ------------------ Interests Section ------------ */
+#interests{
+    margin-left: 300px;
+    padding: 20px;
+}
+
+/* ---------------- Certification SEction ------------- */
+#cert-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+#cert-text{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.cert-article{
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.cert-article p{
+    font-size: 18px;
+}
+.cert-article:hover{
+    background-color: #00c851;
+    color: white;
+    transform: perspective(400px) translateY(-20px);
+}
+.cert-article img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
